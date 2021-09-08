@@ -138,11 +138,7 @@ img.avatar {
 /* https://weulf7.github.io/CVPage/ */
 
 /* Media queries */
-@media screen and(max-width:1000px){
-    #intro{
-        background-color: green !important;
-    }
-}
+
 @media screen and (max-width:412px){
     .navbar-toggler{
        margin: 10px auto !important;
