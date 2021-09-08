@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+
 }
 
 /* NavigationBar */
@@ -16,6 +17,10 @@
   text-decoration: underline;
   font-family: "Allison", sans-serif;
   letter-spacing: 5px;
+}
+
+.navbar-toggler:active{
+    outline: none !important;
 }
 .nav-item {
   border-bottom: 1px solid transparent;
@@ -99,7 +104,11 @@ img.avatar {
 /* Services */
 
 #services {
-  background-color: #fef7dc;
+  background-color:#e6ddc6 ;
+}
+.skill-container{
+    background-color: #fef7dc;
+    padding: 10px 20px;
 }
 
 .services-col img {
@@ -123,4 +132,41 @@ img.avatar {
 
 #education {
   background-color: #fef7dc;
+}
+
+
+/* https://weulf7.github.io/CVPage/ */
+
+/* Media queries */
+@media screen and(max-width:1000px){
+    #intro{
+        background-color: green !important;
+    }
+}
+@media screen and (max-width:412px){
+    .navbar-toggler{
+       margin: 10px auto !important;
+    }
+
+    .navbar-brand{
+        margin: 10px auto !important;
+    }
+    .navbar-nav{
+        text-align: center !important;
+        border: 2px solid black;
+        width: 100% !important;
+        background-color: #e6ddc6;
+    }
+    .nav-item:last-child{
+        border-bottom: none;
+       
+    }
+    .nav-item{
+        width: 70%;
+        margin:5px auto;
+    }
+    .welcome-text{
+        letter-spacing: 2px;
+        line-height: 50%;
+    }
 }
