@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Allison&family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* NavigationBar */
+.navbar {
+  background-color: #fef7dc;
+}
+.navbar-brand {
+  font-size: 2.1rem !important;
+  text-decoration: underline;
+  font-family: "Allison", sans-serif;
+  letter-spacing: 5px;
+}
+.nav-item {
+  border-bottom: 1px solid transparent;
+}
+.nav-item:hover {
+  transform: scale(1.1);
+  border-color: black;
+}
+
+/* Intro */
+.brief-intro {
+  border: 1px solid #fef7dc;
+  padding: 15px;
+}
+.job-span {
+  color: black;
+  text-decoration: underline;
+}
+#intro {
+  background-color: #fef7dc;
+}
+.welcome-section {
+  padding: 30px !important;
+}
+.welcome-section h3 {
+  color: grey;
+  font-size: 2rem;
+}
+.social-icons > i:hover {
+  cursor: pointer;
+}
+
+.bi-instagram {
+  color: transparent;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: -webkit-radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.bi-linkedin {
+  color: blue;
+}
+.bi-twitter {
+  color: #1da1f2;
+}
+
+h4 {
+  color: grey;
+}
+
+/* About Section */
+#about {
+  background-color: #e6ddc6;
+}
+.info-sec > ul > li {
+  background-color: #fef7dc !important;
+}
+.contact-info{
+    text-decoration:underline;
+}
+
+img.avatar {
+  border-radius: 10% !important;
+  margin-left: 4rem !important;
+}
+/* Services */
+
+#services {
+  background-color: #fef7dc;
+}
+
+.services-col img {
+  width: 50% !important;
+}
+
+/* Skills Section */
+#skills {
+  background-color: #e6ddc6;
+}
+.skills-row {
+  background-color: #fef7dc;
+}
+
+.progress-bar {
+  color: black;
+  font-size: 1.2rem;
+}
+
+/* education */
+
+#education {
+  background-color: #fef7dc;
+}
